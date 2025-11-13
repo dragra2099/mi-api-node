@@ -1,0 +1,14 @@
+{
+  "name": "mi-api-node",
+  "version": "1.0.0",
+  "description": "Proyecto backend con Amplication y Node.js",
+  "scripts": {
+    "start": "node apps/nodejs-server/src/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "prisma": "^5.0.0",
+    "@prisma/client": "^5.0.0"
+  }
+}
