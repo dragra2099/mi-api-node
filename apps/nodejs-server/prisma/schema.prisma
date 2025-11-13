@@ -1,0 +1,14 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Casa {
+  createdAt Boolean  @unique
+  id        BigInt   @id @default(autoincrement())
+  updatedAt DateTime @updatedAt
+}
